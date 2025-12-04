@@ -88,6 +88,25 @@ Would you like me to extend this README with installation instructions for Windo
 ## abstract
 
 The Conference Room Booking Management System is a simple program that helps users book, view, and cancel conference room reservations. It checks whether a room is available before booking, which prevents double-booking and scheduling conflicts. The project uses basic programming concepts like menu-driven options, validation, and data storage (optional). It is designed to make room scheduling easy and well-organized inside an office or institution.
+This program implements a Conference Room Booking System in C. It allows users to manage multiple conference rooms and schedule bookings while preventing conflicts. The system is menu-driven and provides the following core functionalities:
+- Room Management
+- Users can add new conference rooms with a unique ID, name, and seating capacity.
+- A maximum of 10 rooms can be stored.
+- Booking Management
+- Users can book a room by specifying the room ID, date, start time, end time, and organizer.
+- The system checks for scheduling conflicts to ensure that no two bookings overlap for the same room on the same date.
+- A maximum of 50 bookings can be stored.
+- Conflict Detection
+- The program compares the requested booking time with existing bookings to detect overlaps.
+- If a conflict is found, the booking is rejected with an appropriate message.
+- Viewing Bookings
+- Users can view all exis- ting bookings, including room ID, date, time slot, and organizer details.
+- If no bookings exist, the system informs the user.
+- Interactive Menu
+- The program runs in a loop, offering options to add rooms, book rooms, view bookings, or exit.
+- Input validation ensures users are guided with appropriate messages for invalid choices.
+
+
 
 ## Summary
 
