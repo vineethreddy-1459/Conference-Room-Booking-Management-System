@@ -13,13 +13,7 @@ It allows users to:
 - Exit the system gracefully.
 This is a lightweight program designed for learning and demonstration purposes. It uses arrays and structures to manage rooms and bookings in memory.
 
- Features
-- Add Room: Register a new conference room with unique ID, name, and seating capacity.
-- Book Room: Reserve a room for a given date and time, with organizer details.
-- Conflict Detection: Prevents double-booking of the same room at overlapping times.
-- View Bookings: Displays all confirmed bookings.
-- Exit: Ends the program.
-
+ 
  Technologies Used
 - Language: C
 - Libraries:
@@ -108,7 +102,13 @@ This program implements a Conference Room Booking System in C. It allows users t
 - Interactive Menu
 - The program runs in a loop, offering options to add rooms, book rooms, view bookings, or exit.
 - Input validation ensures users are guided with appropriate messages for invalid choices.
+Features
 
+Add Room: Register a new conference room with unique ID, name, and seating capacity.
+Book Room: Reserve a room for a given date and time, with organizer details.
+Conflict Detection: Prevents double-booking of the same room at overlapping times.
+View Bookings: Displays all confirmed bookings.
+Exit: Ends the program.
 
 
 ## Summary
